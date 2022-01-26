@@ -1,10 +1,19 @@
 import React from 'react'
+import '../style.css'
 
 const Login = () => {
+  state: {
+    credentials: {
+      username: ''
+      password: ''
+    }
+  }
   return (
-    <div>
+    <div className="form">
       <form>
-        <input type="text" name="name" />
+        <label>USERNAME:</label> <input type="text" name="name" />
+        <label>Password:</label> <input type="password" name="password" />
+        <button>Submit</button>
       </form>
     </div>
   )

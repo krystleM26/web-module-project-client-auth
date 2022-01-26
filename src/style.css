@@ -7,6 +7,11 @@ html, body, #root {
     font-family: Lato;
 }
 
+.form {
+    background-color: lightgray;
+}
+
 label {
     display:block;
+   
 }
